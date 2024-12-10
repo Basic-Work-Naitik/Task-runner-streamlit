@@ -28,7 +28,7 @@ for task in selected_tasks:
     selected_subtasks[task] = subtasks
 
 st.header("Input Parameters")
-num_particles = st.number_input("Specific parameter", min_value=1, value=1000000000)
+num_particles = st.number_input("Specific parameter", min_value=1, value=10)
 
 st.header("Selections Overview")
 st.write("Selected Module:", selected_module)
